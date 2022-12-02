@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "strictPropertyInitialization": false,
+        "forceConsistentCasingInFileNames": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": false,
+        "outDir": "dist",
+        "module": "esnext",
+        "target": "es5",
+        "lib": [
+            "es2019",
+            "DOM"
+        ],
+        "declaration": true,
+        "declarationDir": "dist/esm/types",
+        "emitDeclarationOnly": false,
+        "jsx": "react",
+        "allowJs": false,
+        "checkJs": false,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true
+    }
+}

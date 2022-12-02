@@ -1,0 +1,21 @@
+.Button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: lightseagreen;
+  color: aliceblue;
+}
+.Btn-default {
+  background-color: lightseagreen;
+  color: aliceblue;
+}
+.Btn-primary {
+  background-color: rgb(45, 81, 243);
+  color: aliceblue;
+}
+.Btn-secondary {
+  background-color: rgb(107, 32, 178);
+  color: aliceblue;
+}

@@ -1,0 +1,30 @@
+{
+    "name": "@nicky/scripts",
+    "version": "0.0.1",
+    "description": "scripts",
+    "files": [
+        "bin",
+        "scripts",
+        "templates",
+        "utils"
+    ],
+    "engines": {
+        "node": ">=14.0.0"
+    },
+    "scripts": {
+        "build": "rimraf dist/* && rollup -c",
+        "initialize": "node ./bin/nicky-scripts.js initialize",
+        "localize": "node ./bin/nicky-scripts.js localize --key ZZZZZZZZZZ --localesDir \"src/locales\""
+    },
+    "bin": {
+        "nicky-scripts": "./bin/nicky-scripts.js"
+    },
+    "author": "nicky",
+    "license": "ISC",
+    "dependencies": {
+        "chalk": "^4.1.2",
+        "commander": "^9.3.0",
+        "cross-spawn": "^7.0.3",
+        "fs-extra": "^10.0.0"
+    }
+}
